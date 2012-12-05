@@ -1,6 +1,6 @@
 {
     "name": "queueleuleu",
-    "description" : "A queue system to process jobs",
+    "description" : "A queue system to process jobs asynchronously",
     "keywords" : [
         "queue",
         "queuemessage",
