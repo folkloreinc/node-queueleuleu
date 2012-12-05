@@ -10,7 +10,7 @@
     "maintainers": [
         "David Mongeau-Petitpas <dmp@atelierfolklore.ca>"
     ],
-    "version": "0.0.2",
+    "version": "0.0.9",
     "dependencies": {},
     "main": "index.js",
     "repository": {
