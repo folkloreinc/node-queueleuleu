@@ -1,0 +1,24 @@
+{
+    "name": "queueleuleu",
+    "description" : "A queue system to process jobs",
+    "keywords" : [
+        "queue",
+        "queuemessage",
+        "messagequeue"
+    ],
+    "author": "Folklore <info@atelierfolklore.ca>",
+    "maintainers": [
+        "David Mongeau-Petitpas <dmp@atelierfolklore.ca>"
+    ],
+    "version": "0.0.1",
+    "dependencies": {},
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Folkloreatelier/node-queueleuleu.git"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "http://github.com/Folkloreatelier/node-queueleuleu/raw/master/LICENSE"
+    }
+}
