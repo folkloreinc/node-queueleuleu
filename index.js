@@ -1,15 +1,15 @@
 
-var Queueleuleu = require('./lib/queueleuleu');
+var Queue = require('./lib/queueleuleu');
 var Job = require('./lib/job');
 
 module.exports = exports = {
 
-	'Queue' : Queueleuleu,
+	'Queue' : Queue,
 	'Job' : Job,
 
 	'createQueue' : function(opts) {
 
-		var queue = new Queueleuleu(opts);
+		var queue = new Queue(opts);
 
 		return queue;
 
