@@ -1,5 +1,5 @@
 
-var Queue = require('./lib/queueleuleu');
+var Queue = require('./lib/queue');
 var Job = require('./lib/job');
 
 module.exports = exports = {

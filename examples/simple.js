@@ -3,6 +3,7 @@ var queueleuleu = require('../index');
 
 var queue = queueleuleu.createQueue({
 
+	'debug' : true,
 	'autostart' : true,
 
 	'processor' : function(job,done) {
@@ -11,8 +12,8 @@ var queue = queueleuleu.createQueue({
 		console.log('job data',job.data);
 
 		setTimeout(function() {
-			console.log('processed job #'+job.id);
 			done();
+			console.log('processed job #'+job.id);
 		},Math.round(Math.random()*1000));
 
 	}
@@ -28,7 +29,7 @@ queue.on('end', function() {
 });
 
 
-for(var i = 0; i < 40; i++) {
+for(var i = 0; i < 10; i++) {
 	queue.add({
 		'index' : i
 	});
